@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<!--
+    Name: Max Rickel
+    Date: July 14th 2020
+    Most recent revision: 8/2/2020
+-->
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, intitial-scale=1, shrink-to-fit=no">
+
+    <title>Menu</title>
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<link href="styles/restaurantStyles.css" rel="stylesheet" type="text/css" />
+<link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
+<style>
+
+
+caption {
+    background-color: #f09e9e;
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 4px;
+}
+
+.menu {
+    background-color: #a54e4e;
+    color: #000000;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+table {
+    width: 40%;
+    margin: auto;
+    border-style: solid;
+    border-color: #000;
+}
+td {
+    padding: 5px 10px 5px 10px;
+}
+
+tr {
+    height: 30px;
+}
+
+tr:nth-child(even) {
+    background-color: #f09e9e;
+}
+
+tr:nth-child(odd) {
+    background-color: #975454;
+}
+
+p {
+    text-align: center;
+}
+
+.items {
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+</style>
+
+</head>
+
+<body>
+    <noscript>Our site functions best with JavaScript enabled.</noscript>
+        <header class="jumbotron">
+            <h1>The Blackened Crust</h1>
+            <h3 class="text-right mt-5">New Location, Opening Soon!</h3>
+        </header>
+
+        <div id="carouselCrust" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block w-100" src="images/newLocation_edited.jpg" alt="New Location">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>We're opening a <strong>New Location!</strong></h5>
+                    <p>Swing by our Grand Opening, more info soon!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/seasonalMenu_edited.jpg" alt="Seasonal Menu">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>New Seasonal Menu!</h5>
+                    <p>We're rolling out our new seasonal menu, with specials only available <strong>this season!</strong></p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block w-100" src="images/drinkMonth_edited.jpg" alt="Drink of the Month">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Drink of the Month!</h5>
+                    <p>This month's drink special is a <strong>SG Special Brew!</strong></p>
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <nav>
+            <a class="btn badge-pill" href="home.html" alt="Home Page" role="button">&#127968;</a>
+            <a class="btn badge-pill" href="menu.html" alt="Menu" role="button">Menu</a>
+            <a class="btn badge-pill" href="contactus.html" alt="Contact Us" role="button">Contact Us</a>
+        </nav>
+
+<div class="menu">
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-2 col-md-4"><h5 class="items">The Blackened Pizza</h5><p><strong>Our signature Pie!</strong> Vegan Sausage, Black Olives, Garlic, and Fresh Jalapenos
+             on our homemade Red Sauce. Your choice of Mozzerella or Vegan Cheeses.<br /><strong>$14.49</strong></p></div>
+        <div class="col-lg-2 col-md-4"><h5 class="items">The Crust Punk</h5><p><strong>AKA our "Garbage Pizza"</strong> topped with Vegan Sausage, Vegan Pepperoni, Green Peppers, 
+        Onions, Tomatoes, Garlic, Black and Green Olives, and Spinach, on our homemade Red Sauce. Your choice of Mozzerella 
+        or Vegan Cheeses.<br /><strong>$16.49</strong></p></div>
+        <div class="col-lg-2 col-md-4"><h5 class="items">The Cheesey Riff</h5><p><strong>Talk about shredding!</strong> Three kinds of shredded Vegan Cheese, Basil, extra Garlic, and Tomatoes on a 
+        dairy-free Alfredo sauce.<br /><strong>$13.49</strong></p></div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-lg-3"></div>
+        <div class="col-lg-2 col-md-4"><h5 class="items">The Hardcore Herbivore</h5><p><strong>Our veggie-lover's specialty!</strong> Mushrooms, Black Olives, Green Peppers, Onions,
+        Sun-Dried Tomatoes, and Basil on our homemade Red Sauce.<br /><strong>$14.49</strong></p></div>
+        <div class="col-lg-2 col-md-4"><h5 class="items">Build Your Own Pizza</h5><p><strong>Starting at a low price</strong>, you can create your own pizza, with additional toppings 
+        costing 50¢ per topping.<br /><strong>$11.49</strong></p></div>
+        <div class="col-lg-2 col-md-4"><h5 class="items">Buy Our Staff a Beer!</h5><p>Nothing beats clocking-out and enjoying a post-dinner-rush beer, trust us, we know! 
+        Now you can satisfy our thirst by buying an employee a beer for later.<br /><strong>$4.99</strong></p></div>
+        <div class="col-lg-3"></div>
+    </div>
+</div>
+        <table>
+            <th colspan="2" style="text-align: center; background-color:#f09e9e">Beverages</th>
+            <tbody>
+                <tr>
+                    <td>Root Beer</td>
+                    <td>$3.00</td>
+                </tr>
+                <tr>
+                    <td>Bottled Water</td>
+                    <td>$.1.25</td>
+                </tr>
+                <tr>
+                    <td>Lemonade</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Iced Tea</td>
+                    <td>$1.25</td>
+                </tr>
+            </tbody>
+        </table>
+</div>
+        <footer>
+            <p>3629 Loon Ave, Minneapolis, MN 31415</p>
+            <p>314-159-2653</p>
+        </footer>
+
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    </body>
+</html>

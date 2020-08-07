@@ -1,0 +1,59 @@
+/*
+Creator: Max Rickel
+Date Created: 7/23/2020
+Date last modified: 8/2/2020
+*/
+
+header {
+    background-color: #ba6464;
+    color: #000;
+    text-align: center;
+
+}
+
+.jumbotron {
+    background-color: #000000;
+    color: #ba6464;
+}
+
+footer {
+    background-color: #550d0d;
+    color: #f19797;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    background-color: #4d0000;
+}
+
+h1 {
+    font-family: 'Rowdies', cursive;
+}
+
+nav {
+    border-top: thin #000 solid;
+    border-bottom: thin #000 solid;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+nav .btn {
+    background-color: #000000;
+    color: #fc9f9f;
+    text-decoration: underline;
+}
+
+nav .btn:visited {
+    color: #dd5e5e;
+   
+}
+
+nav .btn:hover {
+    font-weight: bold;
+}
+
+nav .btn:active{
+    text-decoration: none;
+}
